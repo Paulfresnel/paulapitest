@@ -9,6 +9,7 @@ module.exports = {
   queryPath: '/',
   frontendURL: 'https://app.lunie.io',
   transactionPath: '/transaction',
+  paulApiTestPath: '/paulapitest',
   subscriptionPath: '/graphql',
   apollo_engine_api_key: process.env.ENGINE_API_KEY || '',
   enable_cache: process.env.ENABLE_CACHE || false,
